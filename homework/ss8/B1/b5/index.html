@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>b5</title>
+</head>
+<body>
+  <table style="border: 1px solid black">
+    <tr>
+      <th>Tên học sinh</th>
+      <th>HS1</th>
+      <th>HS1</th>
+      <th>HS1</th>
+      <th>HS2</th>
+      <th>HS3</th>
+      <th>ĐTB</th>
+      <th>Xếp loại học sinh</th>
+
+    </tr>
+    <tr>
+      <td><input type="text" id="name" placeholder="Tên của hs"></td>
+      <td><input type="number" placeholder="Điểm của học sinh" style="width: 50px" id="hs1"></td>
+      <td><input type="number" placeholder="Điểm của học sinh" style="width: 50px" id="hs1_1"></td>
+      <td><input type="number" placeholder="Điểm của học sinh" style="width: 50px" id="hs1_2"></td>
+      <td><input type="number" placeholder="Điểm của học sinh" style="width: 50px" id="hs2"></td>
+      <td><input type="number" placeholder="Điểm của học sinh" style="width: 50px" id="hs3"></td>
+      <td id="mean" style="color: blue;">Undefined</td>
+      <td id="kind" style="color: red">Chưa xác định</td>
+    </tr>
+  </table>
+  <button onclick="asses()" style="width: 150px; height: 50px; font-size: 15px; color: white; background: #8e81ce; border-radius: 10px"><b>Xếp loại học sinh</b></button>
+</body>
+<script src="node.js"></script>
+</html>
