@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>rec</title>
+</head>
+<body>
+    <label for="length">Length:</label>
+    <input type="number" id="length" placeholder="length">
+    <label for="width">Length:</label>
+    <input type="number" id="width" placeholder="width">
+    <select id="method">
+        <option value="area">Area</option>
+        <option value="perimeter">Perimeter</option>
+    </select>
+    <button onclick="calculate()">Calculate</button><br/><br/>
+    <h2>Result</h2>
+    <p id="result"></p>
+    <canvas id="canvas" width="400" height="300"></canvas>
+</body>
+<script src="node.js"></script>
+</html>
