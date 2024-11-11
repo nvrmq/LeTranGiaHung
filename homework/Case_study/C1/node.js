@@ -19,10 +19,10 @@ if (amount > 2) {
         }
     }
     if (increasing) {
-        console.log(`The array is increasing at a rate of ${distanceUp}`);
+        console.log(`OK`);
     } else {
-        console.log("The array is not increasing");
+        console.log("NO");
     }
 } else {
-    console.log("Can be determined");
+    console.log("Can't be determined");
 }
