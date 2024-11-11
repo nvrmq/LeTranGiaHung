@@ -1,4 +1,4 @@
-let numbers = [""];
+let numbers = [];
 let amount = +prompt("Enter amount of numbers:");
 if (amount > 2) {
     if (amount <= 20) {
