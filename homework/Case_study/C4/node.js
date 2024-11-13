@@ -11,18 +11,18 @@ do {
     }
 } while (check(arr)===false);
 console.log(arr);
-let a = parseFloat(fraction[0]);
-let b = parseFloat(fraction[1]);
+let a = parseFloat(arr[0]);
+let b = parseFloat(arr[1]);
+let divi;
 let min = a;
 if (min > b) {
         min = b;
 }
-for (let i = 1; i <= min; i++) {
+for (let i = 1; i <=min; i++) {
     if (a % i === 0 && b % i === 0) {
-        a /= i;
-        b /= i;
-        i--;
+        divi = i;
     }
 }
-//I gave up help
-alert(`${a} / ${b}`);
+a /= divi;
+b /= divi;
+alert(`${a}/${b}`)
