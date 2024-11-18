@@ -50,12 +50,8 @@ function newId() {
 function addStudent() {
     const studentId = newId();
     let name = prompt("Enter Student Name");
-    while(!name) {
+    while(!name || name.length > 50) {
         alert("Enter a valid Student Name");
-        name = prompt("Enter Student Name again");
-    }
-    while(name.length > 50) {
-        alert("Name too long");
         name = prompt("Enter Student Name again");
     }
     const className = prompt("Enter Student ClassName");
