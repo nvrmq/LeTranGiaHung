@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>C12</title>
+    <style>
+        table{
+            border-collapse: collapse;
+            width: 70%;
+            margin: auto;
+        }
+        th,td {
+            border: 1px solid black;
+            padding: 10px;
+        }
+        th {
+            background-color: lightgray;
+        }
+        button {
+            background-color: orange;
+            height: 40px;
+            font-size: 20px;
+            cursor: pointer;
+            border-radius: 10px;
+        }
+        div {
+            align-items: center;
+            margin-left: 25%;
+            width: 50%;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <button onclick="addStudent()">Add student</button>
+    <button onclick="removeStudent()">Remove student</button>
+    <button onclick="editStudent()">Edit student</button>
+</div>
+<p id="show"></p>
+</body>
+<script src="node.js"></script>
+</html>
